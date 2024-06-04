@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>又是一個隨便的網頁</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="height: 3500px;">
+        <!-- CSS -->
+        <h1>CSS</h1>  
+        <p style="background:lightblue; border:5px solid green ; ">隨便測試CSS的酷東西</p>
+        <p style="padding:20px 40px 50px 40px; margin-bottom:10px; background:lightblue; border:5px solid green; width: 175px; ; ">隨便測試CSS的酷東西</p>
+
+        <!-- float & display -->
+        <img src="https://i2.bahamut.com.tw/baha_logo5.svg" width="300px" style="float:left; padding: 10px; margin: 10px;"/>
+        <p>一段非常<i style="color: red;"><b>隨便的</b></i>文字</p>
+        <br/>
+        <ul>
+            <li>float：用來將區塊並排時可以使用，當設定浮動時，其父層會抓不到子層的高度</li>
+            <li>left：靠左浮動</li>
+            <li>right：靠右浮動</li>
+            <li>none：不浮動，預設值</li>
+            <li>inherit：繼承父層(上層)的設定</li>
+        </ul>
+        <br/>
+        <br/>
+        <br/>
+        <hr/>
+        <!-- position -->
+        <div class="box" style="position:fixed; top: 20px; right: 20px;">flexed</div>
+        <div class="testbox" style="position: relative; bottom: 5px;">relative</div>
+        <div class="box" style="position: relative; margin: 10px;">
+            <div class="testbox" style="position: absolute; bottom: 0px;right: 0px;">absolute</div>
+        </div>
+        <div class="box" style="height: 50vh;"><div class="sticky">sticky1</div></div>
+        <div class="box" style="height: 50vh; background-color: antiquewhite;"><div class="sticky2">sticky2</div></div>
+        <div class="box" style="height: 50vh;"><div class="sticky">sticky3</div></div>
+        <div class="box" style="height: 50vh; background-color: antiquewhite;"><div class="sticky2">sticky4</div></div>
+        <br/>
+        <br/>
+        <br/>
+        <hr/>
+        <!-- border-radious-->
+        <div class="testbox" style="border-radius:10px 20px 30px 40px;" >border-radious</div>
+        <br/>
+        <br/>
+        <br/>
+        <hr/>
+        <!-- more_css -->
+        <div class="testbox" style="background-color: aqua;" id="big">我會變大</div>
+        <br/>
+        <br/>
+        <div id="small" >我會慢慢變小</div>
+        <br/>
+        <br/>
+        <br/>
+        <hr/>
+
+        <!-- flex -->
+        <div class="container">
+            <div class="box1">區塊1</div>
+            <div class="box2">區塊2</div>
+            <div class="box3">區塊3</div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <hr/>
+
+        <!-- animation -->
+        <div class="box box-animation"></div>
+        <br/>
+        <div class="box box-animation2"></div>
+
+
+
+
+    </body>
+</html>

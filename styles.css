@@ -1,0 +1,116 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color:#ccc;
+    text-align: center;
+    line-height: 150px;
+}
+.testbox{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(206, 76, 76);
+    text-align: center;
+    line-height: 100px;
+}
+.testbox2{
+    width: 100px;
+    height: 100px;
+    background-color:orange;
+    text-align: center;
+    line-height: 100px;
+}
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(206, 76, 76);
+    text-align: center;
+    line-height: 100px;
+    position: sticky;
+    top: 0px;
+
+}
+.sticky2{
+    width: 100px;
+    height: 100px;
+    background-color:orange;
+    text-align: center;
+    line-height: 100px;
+    position: sticky;
+    top: 0px;
+
+}
+
+#big:hover{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+
+#small{
+    width: 200px;
+    height: 200px;
+    background-color: aqua; 
+    text-align: center;
+    line-height:200px;
+}
+
+#small:hover{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    transition: width 3s, height 3s, line-height 3s;
+}
+
+.container{
+    display: flex;
+}
+
+.container div{
+    border: 1px solid rgb(202, 201, 201);
+    padding: 10px;
+    width: 100px;
+
+}
+
+.box1{
+    flex: 2; 
+}
+
+.box2{
+    flex: 3;
+}
+
+.box3{
+    flex: 5;
+}
+
+@keyframes change-color{
+    from{background-color: black;}
+    to{background-color: blue;}
+}
+
+@keyframes change-color2{
+    0%{background-color: red;}
+    14.28%{background-color: orange;}
+    28.56%{background-color: yellow;}
+    42.84%{background-color: green;}
+    57.12%{background-color: blue;}
+    71.4%{background-color: indigo;}
+    84.68%{background-color: purple;}
+}
+
+.box-animation{
+    animation-name:change-color ;
+    animation-duration: 4s;
+    animation-iteration-count: 6;
+    animation-delay: 3s;
+}
+
+.box-animation2{
+    animation-name:change-color2 ;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+}
+
